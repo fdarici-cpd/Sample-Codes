@@ -19,6 +19,11 @@ classes/copado__*
 triggers/copado__*
 pages/copado__*
 
+classes/TIMBASURVEYS__*
+classes/SurveyController*
+triggers/TIMBASURVEYS__*
+pages/TIMBASURVEYS__*
+
 #Translations are complex since get updated indirectly across multiple files, they can make a deployment fail
 #if a field is translated in source and it doesn't exist on destination. 
 #If you are committing incrementally new fields and new Translations you can track them in Git, just be careful. 
